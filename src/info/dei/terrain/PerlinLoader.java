@@ -17,7 +17,7 @@ public class PerlinLoader {
 	public ChunkService chunkService;
 	public int[][] biomes;
 	public int rows; public int cols;
-	public long seed = 870L;
+	public long seed = System.currentTimeMillis(); //original seeds: 870, 870691
 	
 	public double[][] terrain;
 
